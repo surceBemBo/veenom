@@ -89,7 +89,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
                 ],
             ]
         ),
@@ -114,52 +114,52 @@ async def khalid(client: Client, message: Message):
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""انت روحي""",
+                    f"""🐥انت روحي""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
                 ],
             ]
         ),
     )
                     
 @app.on_message(
-     command(["مبرمج السورس","المطور","مطور السورس","المبرمج"])
+     command(["مبرمج السورس","المطور","مطور السورس","افيونا"])
     & filters.group
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆""",
+        caption=f"""𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐑𝐍𝐎𝐏 𝐒𝐎𝐔𝐑𝐂𝐄𝐒""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                InlineKeyboardButton("𝙰𝙵𝚈𝙾𝙽𝙰 𝙱𝙰𝚂𝙷", url=f"https://t.me/l_03_l"),
                 ],[
                 InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
                 ]
             ]
         ),
     )
 
 @app.on_message(
-    command(["سورس","السورس"])
+    command(["سورس","السورس","ارنوب"])
     & filters.group
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""[𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆 𝒇𝒐𝒓 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑩𝒐𝒕𝒔](https://t.me/yy8gg)""",
+                caption=f"""[𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐑𝐍𝐎𝐏 𝐒𝐎𝐔𝐑𝐂𝐄𝐒 ](https://t.me/l_YT_l)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/Ng_221)\n\n[𝙰𝙵𝚈𝙾𝙽𝙰 𝙱𝙰𝚂𝙷](https://t.me/l_03_l)\n\n[𝚗𝚊𝚍𝚎𝚛 𝚋𝚊𝚜𝚑](https://t.me/Ng_103)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                        "𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                        "𝙰𝙵𝚈𝙾𝙽𝙰 𝙱𝙰𝚂𝙷", url=f"https://t.me/l_03_l"),
             ],[
                 InlineKeyboardButton("✚ أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
