@@ -64,7 +64,7 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""أسمك {message.from_user.mention}\n\nمعرفك @{message.from_user.username}\n\nآيديك {message.from_user.id}\n\nآيدي الكروب {message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""💗أسمك {message.from_user.mention}\n\n💗معرفك @{message.from_user.username}\n\n💗آيديك {message.from_user.id}\n\n💗آيدي الجروب {message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -84,7 +84,7 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك{message.from_user.mention}\n\nيـوزرك @{message.from_user.username}\n\nالايدي {message.from_user.id}\n\nايـدي الـجـروب{message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""🐥نـيـمـك{message.from_user.mention}\n\n🐥يـوزرك @{message.from_user.username}\n\n🐥الايدي {message.from_user.id}\n\n🐥ايـدي الـجـروب{message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -132,7 +132,7 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
+        photo=f"https://telegra.ph/file/d1e63fd831eae0bde499c.jpg",
         caption=f"""𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐑𝐍𝐎𝐏 𝐒𝐎𝐔𝐑𝐂𝐄𝐒""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -153,7 +153,7 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
+        photo=f"https://telegra.ph/file/d1e63fd831eae0bde499c.jpg",
                 caption=f"""[𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐑𝐍𝐎𝐏 𝐒𝐎𝐔𝐑𝐂𝐄𝐒 ](https://t.me/l_YT_l)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/Ng_221)\n\n[𝙰𝙵𝚈𝙾𝙽𝙰 𝙱𝙰𝚂𝙷](https://t.me/l_03_l)\n\n[𝚗𝚊𝚍𝚎𝚛 𝚋𝚊𝚜𝚑](https://t.me/Ng_103)""",
         reply_markup=InlineKeyboardMarkup(
         [
