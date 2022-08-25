@@ -11,7 +11,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["/ping", "بنك"]
+PING_COMMAND : ["/ping", "بنج"]
 START_COMMAND : ["start"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["/settings", "/setting", "الاعدادات"]
@@ -21,7 +21,7 @@ STATS_COMMAND : ["/stats", "الاحصائيات"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["/play", "/vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل","تشغيل"]
+PLAY_COMMAND : ["/play", "/vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل" ,"شغلي" ,"تشغيل"]
 PLAYMODE_COMMAND : ["/playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -45,7 +45,7 @@ PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
 MUTE_COMMAND : ["/mute", "/cmute", "كتم" ,"وقف"]
 UNMUTE_COMMAND : ["/unmute", "/cunmute", "كمل" ,"استئناف"]
-STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اطفاء"]
+STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اسكت" ,"ايقاف"]
 SKIP_COMMAND : ["/skip", "/cskip", "تخطي"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
@@ -55,7 +55,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["/addsudo", "مطور"]
+ADDSUDO_COMMAND : ["/addsudo", "المطور" ,"مطور"]
 DELSUDO_COMMAND : ["/delsudo", "تنزيل"]
 SUDOUSERS_COMMAND : ["/sudolist", "المطورين"]
 
