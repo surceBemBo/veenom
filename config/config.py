@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "9950990"))
-API_HASH = getenv("API_HASH", "f20335094c36c3609f1e351f50d977ac")
+API_ID = int(getenv("API_ID", "12664474"))
+API_HASH = getenv("API_HASH", "487ca15d6be5bdd32ce8ab67461f5436")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5641607915:AAHoTInoRaxC5w-Zhzxt9X2r0UtwoqWXe_s")
+BOT_TOKEN = getenv("BOT_TOKEN", "5530199355:AAFhGlZXz-nu0zkOs1rEF-nOg7pu4OvfJLg")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001709259736"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001772233251"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music bot arnop")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5521078709").split())
+    map(int, getenv("OWNER_ID", "5054546767").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BAAkUaD7ef7PfELKyc-UmJg-OY1mYgREKQcN3fm-GAOu7FOQaxe49Yvoaeqlqvdk0e2upP7Um5eR6Zb-_Vy-PkgTJVgaLCTu5ih946tL1P403KyDVWs4nYtU2dVwGmXVsar2WSoVKWLYvDWmjA9-aTKKgfL56FV4dAaOF3h7256EaInYe9ufJijwfcyUXzxmeHL2E7NlVtYc3TID5cuxNPkteNbCnD2LrCWd3_wrdb7k_uKf453ETTUKVnkALc7NMBQD9QaNUJTN3qTiX-ySk2aBQSa7Tvc--t2Owj7MjXmWuUrr8zeCnGEnuXknFUVAYYORJIBx2MNPS5SnKqYZfeSoAAAAAU6hpD0A")
+STRING1 = getenv("STRING_SESSION", "BAAxqtvpzIxpEX-rXZB2RxJleCYJxWfh96ezQ_R4h4NCExFNFYM2S4u1eW-bfpBy8dn4H_M041v6fmqfDdSIpmEO3Yx6WYyrUx9Iddw217GMtabbtIakZsOQ0h1R4nWrVJtO7MJXXP3hiK-4ft_RpHggSS7XFklBAP5ckteDc6IusDKWqr3DmUwPo_iEbtFjcidoXwx4WO9FrG12N8UcyKjD5kPHY_8Yri3UgJQ-SJIY5hNyvRwOYWM5yHZy3B-FLiHe1rtMrODLhjVK2SsVK5Jo0tB8uQ8FGY0BrugNsAyLJmG1C25MDzK8bxA19HCRa7Hd9VqNdFlmCNWhPQFSMwuQTH4TMAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -165,7 +165,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/a4b80a2c6af035cf933ec.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/ce343cdf8f45676c3312f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
