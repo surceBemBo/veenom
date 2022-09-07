@@ -64,12 +64,12 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""💗أسمك {message.from_user.mention}\n\n💗معرفك @{message.from_user.username}\n\n💗آيديك {message.from_user.id}\n\n💗آيدي الجروب {message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""🐥ꪀᥲ️︎ꪔᥱ︎ {message.from_user.mention}\n\n⚡u᥆᥉ᥱ︎ɾ @{message.from_user.username}\n\n✨Ꭵძ {message.from_user.id}\n\n🐥Ꭵძ ᥉uρ᥆ɾƚ {message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
+                        "᥉᥆uɾᥴ︎ᥱ︎ ᥲ️︎ɾꪀ᥆ρ", url=f"https://t.me/l_YT_l"),
                 ],
             ]
         ),
@@ -84,12 +84,12 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""🐥نـيـمـك{message.from_user.mention}\n\n🐥يـوزرك @{message.from_user.username}\n\n🐥الايدي {message.from_user.id}\n\n🐥ايـدي الـجـروب{message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""🐥¦ꪀᥲ️︎ꪔᥱ︎{message.from_user.mention}\n\n✨¦u᥆᥉ᥱ︎ɾ @{message.from_user.username}\n\n⚡¦Ꭵძ {message.from_user.id}\n\n🧨¦Ꭵძ ᥉uρ᥆ɾƚ{message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
+                        "᥉᥆uɾᥴ︎ᥱ︎ ᥲ️︎ɾꪀ᥆ρ", url=f"https://t.me/l_YT_l"),
                 ],
             ]
         ),
@@ -119,28 +119,28 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
+                        "᥉᥆uɾᥴ︎ᥱ︎ ᥲ️︎ɾꪀ᥆ρ", url=f"https://t.me/l_YT_l"),
                 ],
             ]
         ),
     )
                     
 @app.on_message(
-     command(["مبرمج السورس","المطور","مطور السورس","افيونا"])
+     command(["مبرمج السورس","نادر","مطور السورس","افيونا"])
     & filters.group
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/d1e63fd831eae0bde499c.jpg",
-        caption=f"""𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 𝐓𝐇𝐄 𝐀𝐑𝐍𝐎𝐏 𝐒𝐎𝐔𝐑𝐂𝐄𝐒""",
+        caption=f"""[Wᥱ︎ꪶᥴ︎᥆ꪔ ƚ᥆ ᥉᥆uɾ᥉ᥱ︎ ᥲ️︎ɾꪀ᥆ρ](https://t.me/l_YT_l)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝙰𝙵𝚈𝙾𝙽𝙰 𝙱𝙰𝚂𝙷", url=f"https://t.me/l_03_l"),
+                InlineKeyboardButton("ᥲ️︎ƒu᥆ꪀᥲ️︎ ხ︎ᥲ️︎᥉𝗁︎", url=f"https://t.me/l_03_l"),
                 ],[
                 InlineKeyboardButton(
-                        "𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝚁𝙽𝙾𝙱", url=f"https://t.me/l_YT_l"),
+                        "ꪀᥲ️︎ძᥱ︎ɾ ხ︎ᥲ️︎᥉𝗁︎", url=f"https://t.me/Ng_103"),
                 ]
             ]
         ),
