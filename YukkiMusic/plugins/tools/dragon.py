@@ -147,7 +147,7 @@ async def khalid(client: Client, message: Message):
     )
 
 @app.on_message(
-    command(["سورس","السورس","ارنوب"])
+    command(["فينوم افيون"])
     & filters.group
     & ~filters.edited
 )
