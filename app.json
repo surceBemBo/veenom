@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "رابط الريبو الخاص فيك",
-        "value": "https://github.com/alhajji",
+        "value": "https://github.com/surceBemBo/veenom",
         "required": true
       },
       "UPSTREAM_BRANCH": {
