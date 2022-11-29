@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "9950990"))
-API_HASH = getenv("API_HASH", "f20335094c36c3609f1e351f50d977ac")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5641607915:AAEiKa112VQ65g2eOtL7pOXGtumGMX8cTuY")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority")
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001709259736"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music bot venom")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "music bot toxic ")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5521078709").split())
+    map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,13 +65,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/l_YT_l"
+    "CHANNEL_SUDO", "https://t.me/V2R_w"
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/l_YT_l"
-)  # Example:- https://t.me/l_YT_l
+    "SUPPORT_CHANNEL", "https://t.me/V2R_w"
+)  # Example:- https://t.me/V2R_w
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/l_lpl_l"
-)  # Example:- https://t.me/l_lpl_l
+    "SUPPORT_GROUP", "https://t.me/zarzoru1"
+)  # Example:- https://t.me/zarzoru1
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -137,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BABDS4Pjq3vojAk2o2JN4K02lGVKT_FKBg89T_8rOpkm4DKJSr2nDaQlwFlH2l6Zs3XiyHyrCKxoWV20CV1YKSIfLgiIE7YUVVArxNdF0q6JZ5BN7K6c93UdlK6-ile0dAbHrNJo5d4PtQIG2T_YJOdZn-AuTYbSGTawqvO3T1oUEdt4Jbhr6zxuUKtXvRsxZkNLOT59987xLFbJW-1-3Xo9jfF0UKseEYmeDj_8qyz2TEFFd42yUl9IiDbP4-XQbmHNHmkIbN6EBh-wr2f4Zo9OawNLqo7j6vNWOsDvpUTRWoe6I8Pd8OoTJoPNBZol5UnOlyvkVvyfO4kb59bm4nxqAAAAAU6hpD0A")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -167,7 +167,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/ce343cdf8f45676c3312f.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
