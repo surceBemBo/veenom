@@ -65,7 +65,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "تـم تنـصيب سـورس أرنـــوب بنجـاح"
+                    config.LOG_GROUP_ID, "تـم تنـصيب سـورس تـوكـسيك بنجـاح"
                 )
             except:
                 LOGGER(__name__).error(
