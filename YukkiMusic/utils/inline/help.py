@@ -86,7 +86,7 @@ def private_help_panel(_):
         [
             InlineKeyboardButton(
                 text=_["S_B_9"],
-                url=f"https://t.me/zarzoru1",
+                url=f"https://t.me/Y_H_U_3",
             ),
         ],
     ]
