@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "9759782"))
-API_HASH = getenv("API_HASH", "944874124a5b112550913dab5e1117fe")
+API_ID = int(getenv("API_ID", "19722516"))
+API_HASH = getenv("API_HASH", "041a11b1f107a0ddc732a1a4026d918b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5581893402:AAHRQ-eEsQ5MkxY3vO6TZbBcAnNgj-HItTA")
+BOT_TOKEN = getenv("BOT_TOKEN", "5673063668:AAHu5hvoCqCiRjFb05h15-e77daYGfa9r94")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority")
@@ -65,13 +65,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/Y_H_U_0"
+    "CHANNEL_SUDO", "https://t.me/Y_H_U_3"
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Y_H_U_0"
-)  # Example:- https://t.me/Y_H_U_0
+    "SUPPORT_CHANNEL", "https://t.me/Y_H_U_3"
+)  # Example:- https://t.me/Y_H_U_3
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/zarzoru1"
-)  # Example:- https://t.me/zarzoru1
+    "SUPPORT_GROUP", "https://t.me/Y_H_U_4"
+)  # Example:- https://t.me/Y_H_U_4
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -137,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BABtPx2G6Oa1OBzuNiMyulZqNYi8HQ5a6ytKKXRYSotKvlmD3iLH6zEz4Fx_4olh69JOk_0LnozCnAHlYWT0YbV2cA0GAqW-R8fYvUZHLf0tkxFLuoFusVNFtabuVxf2IpzELG_iQnoY5AqhhgVjXu432j17xd6B4Q3A85bfx50ZQxP2fe0T1dwAPwIv4g9i51GXkxZyL2PVPi2b4ZY70n0L03aAq2vtjSacGBPscKzEwq1uh5RE0cZCctknEAuMc6NKzYNCptyAQ0sbBc_Db7b2aNnxP_7s2TGbZ2UZySdKQ5IGPhBqjHNTI30W8n_wVKO1Bjr04TdDnKGukAr4h-AAAAAWGykesA")
+STRING1 = getenv("STRING_SESSION", "BAC-GKmkPm5hsGLvc5M999FvLd9s-EjTcaquHu3JUYBg4c11JirfjoPzgmflZHWmAYIkvZ-K7sYefv8bQ_B6sbyaYGbKvSLsDRF9_0hb664utxibGnE8Je2GZmutt8t8CupGn6JWQwWh79t2D6t8AkKEBDNxD1mZc6HiBjLUe4xIrsGaB9lcVUxUcMUsklzNnAewtWJhHkyO4jA1Murl_RhbHD85KC_R4hg3qJbMxX8_5NGc_q5MfNhatOYBEmyfl5LXg_4RAMIafF9r-QV3XGn0nWxtNMsESXxay0h_m3vsk0jJecA7RZZhvZZxyAHzk9XEEwJcwU454G35VZGw3qAAAAAV9JN3EA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -167,7 +167,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/d1e63fd831eae0bde499c.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
